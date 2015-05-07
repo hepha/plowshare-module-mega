@@ -24,7 +24,7 @@ Since plowshare 2.1.0, a tool named plowmod allow to easily manage modules repos
 and updates into ~/.config/plowshare/modules.d/
 
 $ plowmod -i https://github.com/mcrapet/plowshare-module-mega.git
-$ cd ~/.config/plowshare/mega.git
+$ cd ~/.config/plowshare/modules.d/mega.git
 $ ./autogen.sh
 $ ./configure --enable-local
 $ make
